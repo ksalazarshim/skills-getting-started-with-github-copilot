@@ -70,6 +70,33 @@ section h3 {
   color: #0066cc;
 }
 
+.participants-list {
+  margin-top: 5px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none; /* hide bullets */
+}
+
+.participants-list li {
+  font-size: 0.9rem;
+  color: #444;
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participants-list li .remove-participant {
+  margin-left: 10px;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.participants-list li .remove-participant:hover {
+  color: #b71c1c;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
